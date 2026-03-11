@@ -10,6 +10,6 @@ execution:
     timeout: 15s
     memory: 20MB
     call: advancePhase
-source: functions/imposter/advancePhase
+source: functions/advancePhase
 domains:
     - imposter_api
