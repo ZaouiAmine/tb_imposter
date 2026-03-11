@@ -1,0 +1,15 @@
+id: QmZffSiWia8BG9z8Q3Xgs1t2QYsqRuKfZFqK5N46pBVxUu
+description: Vote
+tags: []
+trigger:
+    type: http
+    method: POST
+    paths:
+        - /api/rooms/X/vote
+execution:
+    timeout: 15s
+    memory: 20MB
+    call: vote
+source: imposter/functions/vote
+domains:
+    - imposter_api

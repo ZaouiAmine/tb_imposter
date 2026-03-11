@@ -1,0 +1,15 @@
+id: QmSLWsdiTPxY8XtsFKQ7DEr7Qy15jMpMTUWET8YvawkNRP
+description: Send message
+tags: []
+trigger:
+    type: http
+    method: POST
+    paths:
+        - /api/rooms/X/message
+execution:
+    timeout: 15s
+    memory: 20MB
+    call: sendMessage
+source: imposter/functions/sendMessage
+domains:
+    - imposter_api

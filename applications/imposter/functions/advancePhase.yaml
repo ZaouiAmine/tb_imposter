@@ -1,0 +1,15 @@
+id: QmW6ByNshppHfDZdy45iEQxKZC6ieVGCGjq9PkUrQQPCDS
+description: Advance phase
+tags: []
+trigger:
+    type: http
+    method: POST
+    paths:
+        - /api/rooms/X/advance
+execution:
+    timeout: 15s
+    memory: 20MB
+    call: advancePhase
+source: imposter/functions/advancePhase
+domains:
+    - imposter_api

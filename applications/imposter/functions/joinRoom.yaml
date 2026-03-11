@@ -1,0 +1,15 @@
+id: QmUeuECfzMRHdQbtiC3TEXSR1ZGACaB5akXV3eaDsnddp2
+description: Join room
+tags: []
+trigger:
+    type: http
+    method: POST
+    paths:
+        - /api/rooms/X/join
+execution:
+    timeout: 15s
+    memory: 20MB
+    call: joinRoom
+source: imposter/functions/joinRoom
+domains:
+    - imposter_api

@@ -1,0 +1,15 @@
+id: QmRfEDudSUPAbtZ4pBEygjkm4v4joCH7TbUhJYwYXFWqNT
+description: Get WebSocket URL
+tags: []
+trigger:
+    type: http
+    method: GET
+    paths:
+        - /api/ws
+execution:
+    timeout: 15s
+    memory: 20MB
+    call: getWebSocketUrl
+source: imposter/functions/getWebSocketUrl
+domains:
+    - imposter_api

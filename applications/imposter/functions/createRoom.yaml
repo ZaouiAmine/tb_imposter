@@ -1,0 +1,15 @@
+id: QmVuE11YqmLxGgk5btRJwWidSqVRsLaX4pNX8Z5cR7M1xz
+description: Create room
+tags: []
+trigger:
+    type: http
+    method: POST
+    paths:
+        - /api/rooms
+execution:
+    timeout: 15s
+    memory: 20MB
+    call: createRoom
+source: imposter/functions/createRoom
+domains:
+    - imposter_api

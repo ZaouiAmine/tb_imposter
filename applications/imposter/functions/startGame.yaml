@@ -1,0 +1,15 @@
+id: QmeLYQKyvXaFjenuFccxzW2oC4fmQacJx5FszvhRDtYCxE
+description: Start game
+tags: []
+trigger:
+    type: http
+    method: POST
+    paths:
+        - /api/rooms/X/start
+execution:
+    timeout: 15s
+    memory: 20MB
+    call: startGame
+source: imposter/functions/startGame
+domains:
+    - imposter_api

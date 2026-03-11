@@ -1,0 +1,15 @@
+id: QmPvrx6e6YPa4Q68bVWPEXPEnrvzcZm1QrpJCzUtBdUo7H
+description: Get room
+tags: []
+trigger:
+    type: http
+    method: GET
+    paths:
+        - /api/rooms/X
+execution:
+    timeout: 15s
+    memory: 20MB
+    call: getRoom
+source: imposter/functions/getRoom
+domains:
+    - imposter_api
