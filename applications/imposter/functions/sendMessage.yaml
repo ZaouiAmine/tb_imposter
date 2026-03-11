@@ -10,6 +10,6 @@ execution:
     timeout: 15s
     memory: 20MB
     call: sendMessage
-source: imposter/functions/sendMessage
+source: .
 domains:
     - imposter_api
