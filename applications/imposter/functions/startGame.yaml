@@ -10,6 +10,6 @@ execution:
     timeout: 15s
     memory: 20MB
     call: startGame
-source: functions/startGame
+source: functions/imposter_startGame
 domains:
     - imposter_api

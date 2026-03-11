@@ -10,6 +10,6 @@ execution:
     timeout: 15s
     memory: 20MB
     call: vote
-source: functions/vote
+source: functions/imposter_vote
 domains:
     - imposter_api
