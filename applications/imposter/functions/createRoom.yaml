@@ -10,6 +10,6 @@ execution:
     timeout: 15s
     memory: 20MB
     call: createRoom
-source: imposter/functions/createRoom
+source: github.com/ZaouiAmine/tb_code_imposter/imposter/functions/createRoom
 domains:
     - imposter_api
