@@ -1,0 +1,12 @@
+id: QmTdjLM4aNrR9aFKnhzfN4g3qYJyRzh7sF55Mj7Z2RWtRe
+description: Game channel
+tags: []
+local: false
+channel:
+    regex: false
+    match: gamechan
+bridges:
+    mqtt:
+        enable: false
+    websocket:
+        enable: true

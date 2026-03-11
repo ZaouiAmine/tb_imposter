@@ -1,0 +1,11 @@
+id: QmWdGC7udDbAdT1qgNKs8qWTaTqbQp5bgEZGAAa8Xpnuoi
+description: Game rooms
+match: gamerooms
+useRegex: false
+access:
+    network: all
+storage:
+    size: 100MB
+replicas:
+    min: 0
+    max: 1
