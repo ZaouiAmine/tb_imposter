@@ -10,6 +10,6 @@ execution:
     timeout: 15s
     memory: 20MB
     call: joinRoom
-source: .
+source: functions/imposter/joinRoom
 domains:
     - imposter_api
